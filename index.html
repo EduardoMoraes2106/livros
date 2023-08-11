@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Livros Online 24H</h1>
+    </header>
+    <main>
+        <section id="livros">
+            <!-- Aqui vamos preencher com os livros via JavaScript -->
+        </section>
+        <section id="adicionar-livro">
+            <h2>Adicionar Livro</h2>
+            <form id="livro-form">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" required>
+                <label for="autor">Autor:</label>
+                <input type="text" id="autor" required>
+                <label for="imagem">URL da Imagem:</label>
+                <input type="url" id="imagem" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
